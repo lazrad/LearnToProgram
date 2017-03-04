@@ -18,4 +18,5 @@ kilometers = miles * 1.60934
 
 # Print the result to the screen
 
-print(miles, "miles equals", kilometers, "kilometers")
+#print(miles, "miles equals", kilometers, "kilometers")
+print("{} miles equals {} kilometers".format(miles, kilometers))
