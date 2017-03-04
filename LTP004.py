@@ -23,6 +23,8 @@ elif operator == '/':
 
 elif operator == '%':
     print("{} {} {} = {}".format(num1, operator, num2, num1 % num2))
+else:
+    print('Use either + - * / % next time!')
 
 # if + then we need to provide output based on addition
 # Print the result
